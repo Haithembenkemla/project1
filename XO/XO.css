@@ -1,0 +1,50 @@
+body{
+    background-image: url(./Capture\ d’écran\ 2023-05-10\ 230721.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.game{
+    width: 475px;
+    text-align:center;
+    font-family: system-ui ;
+    color: white;
+    margin:auto;
+    padding-top: 100px;
+    
+}
+.name{
+ background-color: rgb(125, 84, 126); 
+ height: 50px;
+ padding: 10px;  
+ width: 435px;
+ margin: auto;
+ padding-left: 30px;
+ opacity: 90%;
+ 
+}
+.square{
+    width: 154px;
+    height :150px;
+    background-color: rgb(131, 66, 133);
+    /* display:grid;
+    grid-template-columns: auto auto auto; */
+    float:left;
+    margin:2px;
+    /* font-size: 50px; */
+    opacity: 70%;
+    font-size: 100px;
+    color: rgb(113, 4, 4);
+    font-weight: bold;
+    justify-content: center;
+    
+}
+.square:hover{
+    background-color: black;
+    opacity: 60%;
+}
+#myaudio{
+    display: none;
+}
+
+
+
