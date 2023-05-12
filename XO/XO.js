@@ -38,40 +38,58 @@ $('.square').click(function(event){
          var square9=$("#item9").text()
 
           if (square1 === square2 && square2 === square3 && square1 !== "") {
-            $("p").text(square1 + "is the winner");
+            $("h2").text(square1 + "  is the winner");
             playAudio()
              
 
           } else if (square4 === square5 && square5 === square6 && square4 !== "") {
-            $("p").text(square4 + " is the winner");
+            $("h2").text(square4 + "  is the winner");
             playAudio()
 
           } else if (square7 === square8 && square8 === square9 && square7 !== "") {
-            $("p").text(square7 + " is the winner");
+            $("h2").text(square7 + "  is the winner");
             playAudio()
 
           } else if (square1 === square4 && square4 === square7 && square1 !== "") {
-            $("p").text(square1 + " is the winner");
+            $("h2").text(square1 + "  is the winner");
             playAudio()
 
           } else if (square2 === square5 && square5 === square8 && square2 !== "") {
-            $("p").text(square2 + " is the winner");
+            $("h2").text(square2 + "  is the winner");
             playAudio()
 
           } else if (square3 === square6 && square6 === square9 && square3 !== "") {
-            $("p").text(square3 + " is the winner");
+            $("h2").text(square3 + "  is the winner");
             playAudio()
 
           } else if (square1 === square5 && square5 === square9 && square1 !== "") {
-            $("p").text(square1 + " is the winner");
+            $("h2").text(square1 + "  is the winner");
             playAudio()
 
           } else if (square3 === square5 && square5 === square7 && square3 !== "") {
-            $("p").text(square3 + " is the winner");
+            $("h2").text(square3 + "  is the winner");
             playAudio()
           }
        }
-   
+       
+       $('.bare').hide()
+       $(".exit").click(function(){
+        $('.bare').show()
+       })
+       $(".No").click(function(){
+        $('.bare').hide()
+       }) 
+      //  $(".yes").click(function(){
+      //   $(".barre").append("<a>")
+      //   $("a").attr("herf","../mainPage.html")
+      //   alert("nljl")
+
+      //  })
+      $("#ex").click(function(){
+        location.reload();
+      })
+       
+ 
 
 
   
